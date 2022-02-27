@@ -1,0 +1,162 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+/* main content */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Amazon Ember";
+    background: grey;
+}
+
+/* header section */
+header{
+    margin: 0;
+    padding: 0;
+    background: #232F3E;
+    color: #FFFFFF;
+}
+
+header .logo{
+    padding: 0;
+    margin-bottom: 0.4em;
+    margin-right: -0.1em;
+    margin-left: -0.3em;
+    padding-right: 67%;
+    height: 3em;
+}
+
+header .account{
+    height: 2.5em;
+}
+
+header .cart{
+    height: 2.5em;
+    padding-right: 1em;
+}
+
+.menu{
+    height: 3em;
+    padding-right: 1em;
+}
+
+header form input{
+    position: relative;
+    width: 98%;
+    height: 3.8em;
+    margin: 0 0.5em 0;
+    padding: 0 0 0;
+    border-radius: 8px;
+}
+
+header form button{
+    position: absolute;
+    border-radius: 8px;
+    border-style: none;
+    margin-left: -5em;
+    margin-top: 0.1em;
+    height: 3.6em;
+    background:#FF9900;
+}
+
+header ul {
+    padding-top: 0.8em;
+    padding-left: 1em;
+    padding-bottom: 0.8em;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.top{
+    padding-left: 1em;
+}
+
+section img {
+    width: 45%;
+    border-radius: 2%;
+    box-shadow: 4px 4px 4px #28282954;
+}
+
+.bottom{
+    margin-top: -0.7em;
+    background: #232F3E;
+    color: #FFFFFF;
+}
+
+.Links{
+    padding-left: 1em;
+    padding-bottom: 1em;
+    background: #2e3e50;
+}
+
+.Footer {
+    background: #19222c;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+ .containers{
+    background: white;
+    margin-top: -1.1em;
+    margin-left: -1em;
+    padding-left: 1em;
+ }
+
+/* Links */
+.logoicons {
+    display: inline-block;
+    width: 100%;
+    height: 2%;
+    }
+
+    .achor{
+        padding-top: 0.6em;
+        padding-bottom: 0.6em;
+        text-align: center;
+    }
+
+header ul li{
+    display: inline;
+    padding-left: 0.1em;
+}
+
+.Footer ul {
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+/* Text section */
+::placeholder{
+    color: rgb(175, 170, 170);
+    padding-left: 0.5em;
+}
+
+section h4{
+    margin-bottom: 0em;
+    padding-bottom: 0.5em;
+}
+
+p {
+    padding-bottom: 0.5em;
+}
+
+.lang li{
+    display: inline;
+}
+
+.copyrightcontent li{
+    margin: 0;
+    padding-right: 0.5em;
+    display: inline;
+}
+
+
+.containers h2{
+    padding-top: 0.5em;
+}
+
+.Footer p {
+    text-align: center;
+}
