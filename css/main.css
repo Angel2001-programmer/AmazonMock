@@ -5,33 +5,35 @@ body {
     padding: 0;
     font-family: "Amazon Ember";
     background: grey;
+    overflow-x: hidden;
 }
 
 /* header section */
-header{
+ header{
     margin: 0;
     padding: 0;
     background: #232F3E;
     color: #FFFFFF;
-}
+    font-size: 3rem;
+} 
 
-header .logo{
+ header .logo{
     padding: 0;
-    margin-bottom: 0.4em;
+    margin: 0;
     margin-right: -0.1em;
     margin-left: -0.3em;
-    padding-right: 67%;
+    padding-right: 29%;
     height: 3em;
-}
+} 
 
-header .account{
+ header .account{
     height: 2.5em;
 }
 
 header .cart{
     height: 2.5em;
     padding-right: 1em;
-}
+} 
 
 .menu{
     height: 3em;
@@ -40,33 +42,44 @@ header .cart{
 
 header form input{
     position: relative;
-    width: 98%;
-    height: 3.8em;
-    margin: 0 0.5em 0;
-    padding: 0 0 0;
-    border-radius: 8px;
+    width: 97%;
+    height: 2em;
+    font-size: 3rem;
+    margin-left: 0.3em;
+    border-radius: 20px;
+} 
+
+form img{
+    margin-top: 0.1em;
+    width: 70px;
+    height: 80px;
 }
 
 header form button{
     position: absolute;
-    border-radius: 8px;
+    border-radius: 20px;
     border-style: none;
-    margin-left: -5em;
-    margin-top: 0.1em;
-    height: 3.6em;
+    margin-left: -10.1em;
+    margin-top: 0.3em;
+    height: 6.5em;
+    width: 10em;
     background:#FF9900;
-}
+} 
 
-header ul {
+ header ul {
     padding-top: 0.8em;
-    padding-left: 1em;
+    padding-left: 0.4em;
     padding-bottom: 0.8em;
-}
+} 
 
 ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.nav{
+    white-space: nowrap;
 }
 
 .top{
@@ -80,7 +93,7 @@ section img {
 }
 
 .bottom{
-    margin-top: -0.7em;
+    margin-top: -2.5em;
     background: #232F3E;
     color: #FFFFFF;
 }
@@ -89,6 +102,7 @@ section img {
     padding-left: 1em;
     padding-bottom: 1em;
     background: #2e3e50;
+    font-size: 3rem;
 }
 
 .Footer {
@@ -99,7 +113,7 @@ section img {
 
  .containers{
     background: white;
-    margin-top: -1.1em;
+    margin-top: -2.7em;
     margin-left: -1em;
     padding-left: 1em;
  }
@@ -137,9 +151,10 @@ tr img{
     }
 
     .achor{
-        padding-top: 0.6em;
-        padding-bottom: 0.6em;
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
         text-align: center;
+        font-size: 3rem;
     }
 
 header ul li{
@@ -165,21 +180,24 @@ section h4{
 
 p {
     padding-bottom: 0.5em;
+    font-size: 3rem;
 }
 
 .lang li{
     display: inline;
+    font-size: 3rem;
 }
 
 .copyrightcontent li{
     margin: 0;
     padding-right: 0.5em;
     display: inline;
+    font-size: 2.5rem;
 }
-
 
 .containers h2{
     padding-top: 0.5em;
+    font-size: 3.5rem;
 }
 
 .Footer p {
